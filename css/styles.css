@@ -127,6 +127,13 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
+.menu-link:hover:after {
+  display: block;
+  height: 4px;
+  margin-top: 20px;
+  background-color: #404bbf;
+  content: '';
+}
 .contacts {
   font-style: normal;
 }
@@ -156,7 +163,14 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-color: var(--secondary-color);
+  background: rgba(46, 47, 66, 0.7);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/bg.jpg);
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-header {
@@ -164,7 +178,6 @@ body {
   margin-bottom: 48px;
   margin-right: auto;
   margin-left: auto;
-  background-color: var(--secondary-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -240,6 +253,29 @@ body {
   width: 100%;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
+.social-list-icon {
+  fill: #f4f4fd;
+}
+
 /* Portfolio */
 .portfolio {
   padding-top: 96px;
@@ -292,15 +328,19 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.position {
+  margin-bottom: 8px;
+}
 
 /* Footer */
 .footer {
+  display: flex;
   padding: 100px 0 100px;
   background-color: var(--secondary-color);
 }
 .footer-wrapper {
   margin-left: 156px;
-
+  margin-right: 0;
   text-align: left;
   width: 264px;
 }
@@ -314,4 +354,14 @@ body {
 }
 .logo-studio-light {
   color: #f4f4fd;
+}
+.social-media-block {
+  margin-left: 120px;
+}
+.social-media-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
