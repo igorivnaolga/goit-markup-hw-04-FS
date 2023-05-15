@@ -229,7 +229,7 @@ body {
 .work-item {
   flex-basis: calc((100% - 72px) / 4);
 }
-.work-item-link {
+.work-item-picture {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,13 +419,10 @@ body {
 .container-footer {
   display: flex;
   align-items: baseline;
-
   padding: 100px 0 100px;
 }
 .footer-wrapper {
-  margin-left: 156px;
   margin-right: 120px;
-  text-align: left;
   width: 264px;
 }
 .logo-footer {
