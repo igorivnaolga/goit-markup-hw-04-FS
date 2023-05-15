@@ -410,11 +410,13 @@ body {
 }
 
 /* Footer */
+.footer {
+  background-color: var(--secondary-color);
+}
 .container-footer {
   display: flex;
   align-items: baseline;
   padding: 100px 0 100px;
-  background-color: var(--secondary-color);
 }
 .footer-wrapper {
   margin-left: 156px;
