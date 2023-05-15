@@ -386,7 +386,7 @@ body {
   width: 168px;
   height: 88px;
   color: var(--customers-icon-color);
-  border: 1px solid var(--customers-icon-color);
+  border: 1px solid currentColor;
   border-radius: 4px;
 }
 .customers-list-icon {
@@ -394,14 +394,10 @@ body {
 }
 .customers-list-link:hover {
   border: 1px solid #404bbf;
-}
-.customers-list-link:focus {
-  border: 1px solid #404bbf;
-}
-.customers-list-link:hover {
   fill: #404bbf;
 }
 .customers-list-link:focus {
+  border: 1px solid #404bbf;
   fill: #404bbf;
 }
 
