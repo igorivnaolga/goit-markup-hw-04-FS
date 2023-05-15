@@ -331,6 +331,26 @@ body {
 .position {
   margin-bottom: 8px;
 }
+/* Customers */
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.customers-list-icon {
+  width: 104px;
+  height: 56px;
+  fill: #8e8f99;
+}
 
 /* Footer */
 .footer {
