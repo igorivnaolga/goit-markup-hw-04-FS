@@ -127,7 +127,9 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-.menu-link:hover:after {
+.menu-link:active:after,
+.menu-link:hover:after,
+.menu-link:focus:after {
   display: block;
   height: 4px;
   margin-top: 20px;
@@ -219,6 +221,21 @@ body {
 }
 .work-item {
   flex-basis: calc((100% - 72px) / 4);
+}
+.work-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.work-item-icon {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 64px;
+  height: 64px;
 }
 
 /* Section 3 */
