@@ -131,7 +131,7 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-.menu-link:active:after,
+/* .menu-link:active:after,
 .menu-link:hover:after,
 .menu-link:focus:after {
   display: block;
@@ -139,7 +139,7 @@ body {
   margin-top: 20px;
   background-color: #404bbf;
   content: '';
-}
+} */
 .contacts {
   font-style: normal;
 }
