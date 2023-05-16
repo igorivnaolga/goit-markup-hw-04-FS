@@ -395,7 +395,7 @@ body {
 .customers-list-link:hover,
 .customers-list-link:focus {
   border: 1px solid #404bbf;
-  fill: #404bbf;
+  color: #404bbf;
 }
 
 .customers-list-link:hover .customers-list-icon {
